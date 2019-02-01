@@ -31,4 +31,5 @@ void uniqPrint(int *arr, int lenArr)
     	printf("%d\t", arr[i]);
     flag = 0;
   }
+  getch();
 }
