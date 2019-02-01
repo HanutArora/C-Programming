@@ -1,0 +1,23 @@
+Q1: Write a function in C which takes an array as an argument and print all unique elements in an array.
+Q2: Write a program in C to add 2 numbers using pointers.
+Q3: Write a program in C to add numbers using call by reference.
+Q4: Write a program in C to find the maximum number between 2 numbers using a pointer.
+Q5: Write a program in C to find the factorial of a given number using pointers.
+Q6: Qutput of following program?
+    int main()
+    {
+        int *ptr;
+        int x;
+        ptr = &x;
+        *ptr = 0;
+        printf(" x = %dn", x);
+        printf(" *ptr = %dn", *ptr);
+        *ptr += 5;
+        printf(" x = %dn", x);
+        printf(" *ptr = %dn", *ptr);
+        return 0;
+    }
+Q7: Write a function in C to merge two arrays of same size sorted in descending order, these arrays are taken as arguments.
+Q8: Write a program in C to seperate odd and even integers in seperate arrays.
+Q9: Write a program in C to find sum of right diagonals of a matrix.
+Q10: Write a program in C to find sum of left diagonals of a matrix.
