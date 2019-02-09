@@ -12,7 +12,7 @@ main()
   scanf("%d", ptr1);
   printf("Enter second number: ");
   scanf("%d", ptr2);
-  addNum(ptr1, ptr2);                           //  passing pointers to the function
+  addNum(&ptr1, &ptr2);                           //  passing pointers to the function
   printf("Sum of the 2 numbers = %d", *ptr1);   //  printing the sum of the variables
   getch();
 }
