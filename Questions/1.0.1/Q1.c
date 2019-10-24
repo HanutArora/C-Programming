@@ -1,4 +1,15 @@
-#include<stdio.h>
+#include <stdio
+int main(){
+
+printf("hello world");
+
+
+
+
+
+
+return 0;
+}
 #include<conio.h>
 void uniqPrint(int *arr, int lenArr);     //  declaration of function to print only unique elements of an array
 main()
@@ -24,12 +35,8 @@ void uniqPrint(int *arr, int lenArr)
   {
     for (j = i-1; j>=0; j--)        //  loop for checking if the element is duplicate
     {
-      if (arr[i] == arr[j])
-        flag = 1;
+      if (arr[i] == arr        flag = 1;
     }
     if (flag == 0)                  //  printing only unique elements
-    	printf("%d\t", arr[i]);
-    flag = 0;
-  }
-  getch();
+    	printf("%
 }
