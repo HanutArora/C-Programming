@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void uniqPrint(int *arr, int lenArr);     //  declaration of function to print only unique elements of an array
+int uniqPrint(int *arr, int lenArr);     //  declaration of function to print only unique elements of an array
 main()
 {
   int i;                                  //  for loops
@@ -15,7 +15,7 @@ main()
   }
   uniqPrint(Arr, lenArray);               //  calling function to print unique elements
 }
-void uniqPrint(int *arr, int lenArr)
+int uniqPrint(int *arr, int lenArr)
 {
   int i, j;         //  for loops
   int flag = 0;     //  for checking if the element is duplicate or not
@@ -32,4 +32,5 @@ void uniqPrint(int *arr, int lenArr)
     flag = 0;
   }
   getch();
+  return 0;
 }
