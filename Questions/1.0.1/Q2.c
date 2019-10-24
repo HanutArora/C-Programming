@@ -1,3 +1,5 @@
+//Adding two numbers using pointer concept
+
 #include<stdio.h>
 #include<conio.h>
 int main()
