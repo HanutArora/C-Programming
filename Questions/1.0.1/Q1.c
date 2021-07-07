@@ -1,19 +1,21 @@
 #include<stdio.h>
 #include<conio.h>
 void uniqPrint(int *arr, int lenArr);     //  declaration of function to print only unique elements of an array
-main()
+int main()
 {
-  int i;                                  //  for loops
+  int i = 0;                                  //  for loops
   int lenArray;                           //  for storing the length of the array / total number of elements
   printf("Enter number of elements: ");
   scanf("%d", &lenArray);
-  int Arr[lenArray];                      //  creating array for storing the elements
-  for (i = 0; i < lenArray; i++)          //  populating the array
+  int Arr[50];                      //  creating array for storing the elements
+  for (i; i < lenArray; i++)          //  populating the array
   {
     printf("Enter %d element: ", i+1);
     scanf("%d", &Arr[i]);
   }
   uniqPrint(Arr, lenArray);               //  calling function to print unique elements
+  return 0;
+
 }
 void uniqPrint(int *arr, int lenArr)
 {
